@@ -35,7 +35,8 @@ const Datethings1 = () =>{
         <div>
             <h4>Today is {day}th of {month}</h4>
             <h1>It is {hour} : {minute} : {second} now</h1>
-            <h2 style ={styles} >Good {timeOfDay}</h2>
+            <h2 style ={styles} >Good {timeOfDay} Chooty</h2>
+            <h3>this shit does not even work properly</h3>
 
         </div>
 

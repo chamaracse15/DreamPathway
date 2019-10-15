@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 function MyInfo(){
 
     return(
@@ -16,10 +15,10 @@ function MyInfo(){
                 <li>Sumbmarine</li>
 
             </ol>
-            <p1>
+            {/* <p1>
                 <h3>Hello my name is Maithria</h3>
                 
-            </p1>
+            </p1> */}
         </div>
        
     )

@@ -1,10 +1,19 @@
 import React from "react";
-import "./style.css"
+import "../styling/style.css"
+import FoodData from '../data/testingDataArray.json'
 
 function Footer(){
     return(
         <footer>
-            <h2 className = "footer">this is the footer element</h2>
+        {FoodData.map((foodDetail, index) => {
+            return (
+                    <div>
+                        <h1>{foodDetail.title}</h1>
+                        <h5>Price = {foodDetail.Price}</h5>
+                        <h2>Customer Comments : {foodDetail.Comments}</h2>
+                        <hr/>
+                    </div> )
+        })}
         </footer>
 
 
